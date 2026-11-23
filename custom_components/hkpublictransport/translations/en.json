@@ -1,0 +1,61 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "HK Public Transport",
+        "description": "Choose how you want to add a bus stop monitoring target.",
+        "menu_options": {
+          "route": "Add by Bus Route",
+          "stop": "Add by Bus Stop"
+        }
+      },
+      "route": {
+        "title": "Enter Bus Route",
+        "description": "Enter the route number (e.g. 72X, A41, 1A, 962X).",
+        "data": {
+          "route": "Route number"
+        }
+      },
+      "route_select": {
+        "title": "Select Direction / Service",
+        "description": "Multiple operators or directions found. Please select one.",
+        "data": {
+          "selection": "Option"
+        }
+      },
+      "stop_select": {
+        "title": "Select Bus Stop",
+        "description": "Choose the stop along this route that you want to monitor.",
+        "data": {
+          "stop": "Stop"
+        }
+      },
+      "stop": {
+        "title": "Search Bus Stop",
+        "description": "Enter English stop name keyword or stop ID.",
+        "data": {
+          "keyword": "Keyword or Stop ID"
+        }
+      },
+      "stop_route_select": {
+        "title": "Select Stop",
+        "description": "Matching stops found. Select one (route selection comes next).",
+        "data": {
+          "selection": "Stop"
+        }
+      }
+    },
+    "error": {
+      "invalid_route": "Please enter a valid route number.",
+      "route_not_found": "No matching routes found. Check the route number.",
+      "invalid_stop": "Please enter a stop name or ID.",
+      "stop_not_found": "No matching stops found."
+    },
+    "abort": {
+      "already_configured": "This route + stop combination is already configured.",
+      "no_route": "No route selected.",
+      "no_stops": "Could not load stops for this route.",
+      "invalid_stop": "Invalid stop selection."
+    }
+  }
+}
