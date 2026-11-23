@@ -28,7 +28,7 @@ Home Assistant custom integration that provides real-time Hong Kong bus ETA sens
 2. Click the three dots (⋮) in the top right → **Custom repositories**
 3. Add repository URL:
    ```
-   https://github.com/YOUR_USERNAME/hkpublictransport
+   https://github.com/Wereling1992/hkpublictransport
    ```
    Category: **Integration**
 4. Click **Add**
